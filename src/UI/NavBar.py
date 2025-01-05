@@ -16,7 +16,7 @@ class NavBar:
                         horizontal_alignment="center",
                         spacing=1,
                         controls=[
-                            ft.IconButton(icon=ft.Icons.LIBRARY_BOOKS_ROUNDED, icon_color=ft.colors.WHITE, icon_size=28),
+                            ft.IconButton(icon="LIBRARY_BOOKS_ROUNDED", icon_color=ft.colors.WHITE, icon_size=28),
                             ft.Text("Книги", size=12, color=ft.colors.WHITE)
                         ]
                     ),
@@ -25,7 +25,7 @@ class NavBar:
                         horizontal_alignment="center",
                         spacing=1,
                         controls=[
-                            ft.IconButton(icon=ft.Icons.PEOPLE_ROUNDED, icon_color=ft.colors.WHITE, icon_size=28),
+                            ft.IconButton(icon="PEOPLE_ROUNDED", icon_color=ft.colors.WHITE, icon_size=28),
                             ft.Text("Поиск", size=12, color=ft.colors.WHITE)
                         ]
                     ),
@@ -35,7 +35,7 @@ class NavBar:
                         spacing=1,
                         controls=[
                             ft.FloatingActionButton(
-                                icon=ft.Icons.ADD,
+                                icon="ADD",
                                 bgcolor="#3F7199",  # Цвет кнопки
                                 shape=ft.CircleBorder(),  # Круглая кнопка
                                 elevation=6,  # Тень кнопки
@@ -61,7 +61,7 @@ class NavBar:
                         horizontal_alignment="center",
                         spacing=1,
                         controls=[
-                            ft.IconButton(icon=ft.Icons.PERSON, icon_color=ft.colors.WHITE, icon_size=28),
+                            ft.IconButton(icon="PERSON", icon_color=ft.colors.WHITE, icon_size=28),
                             ft.Text("Профиль", size=12, color=ft.colors.WHITE)
                         ]
                     ), 
